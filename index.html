@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <!-- Foster Firm/Law -->
@@ -7,9 +8,9 @@
     <head>
         <title>FOSTER Law Firm</title>
 
-        <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="Vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/Resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/Vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="/Vendors/css/normalize.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
         <header>
             <nav>
                 <div class="row">
-                    <a href="#"><img src="Resources/img/logo-foster.png" class="logo"></a>
+                    <a href="#"><img src="/Resources/img/logo-foster.png" class="logo"></a>
                     <ul class="main-nav">
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">PROFESSIONALS</a></li>
@@ -39,7 +40,7 @@
                      and responsibilities, and to represent clients in civil or criminal cases, business transactions, and other matters in
                     which legal advice and other assistance</p> 
              </div>
-            
+
         </header>
 
         <section class="area-of-work">
@@ -58,7 +59,7 @@
                         <p>One some ouch winked far sed playfully that showed yellow reciprocating laorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-            
+
 
                 <div class="col span-1-of-4 box">
                     <div class="custom-work">
@@ -69,7 +70,7 @@
                         <p>One some ouch winked far sed playfully that showed yellow reciprocating laorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-            
+
 
                 <div class="col span-1-of-4 box">
                     <div class="custom-work">
@@ -93,7 +94,7 @@
                         <p>One some ouch winked far sed playfully that showed yellow reciprocating laorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-            
+
 
                 <div class="col span-1-of-4 box">
                     <div class="custom-work">
@@ -104,7 +105,7 @@
                         <p>One some ouch winked far sed playfully that showed yellow reciprocating laorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-            
+
 
                 <div class="col span-1-of-4 box">
                     <div class="custom-work">
@@ -125,31 +126,99 @@
             </div>
 
             <div class="col span-1-of-4">
-                <div class="picture-box-one">
-                    <img src="/Resources/img/foster-team.jpg">
+                    <div class="picture-box-one">
+                        <img src="/Resources/img/foster-team.jpg">
+                        <h4>Meet US</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col span-2-of-4">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <div class="col span-2-of-4" style="font-size: 20px; margin-right: 3%;"> <!-- DE AICI -->
+                    <p class="p-letter">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
                         took a galley of type and scrambled it to make a type specimen book.
                     </p>
                 </div>
+                <div class="col-sm-4" style="margin-top: 15%; padding-left: 5%;">
+                    <h3>
+                        We’re committed <br>
+                        to success & genuine <br>
+                        provider of all types <br>
+                        of legal Services
+                    </h3>
+            </div>
             </div>
 
+            <!--   
+                La mine e responsive 
+                Daca consideri ca spatiul dintre Lorem ipsum si we're committed e prea mare, 
+                verifica "margin-right" din "col span-2-of-4", joaca-te cu procentele, dar s-ar
+                putea ca la un momentdat sa iti sacadeze textul, adica sa se schimbe randurile, 
+                posibil sa fie 2/3 cuvinte per rand. 
+                Bootstrap-ul nu a fost integrat, am vrut sa adaug bootstrap 3 dar se schimba tot
+                si am ramas doar la clasa coloanelor din bootstrap si am reusit.
+                Am facut in ROW, doua coloane mai "mici". Intelegi tu codul dupa ce-l citesti.
+            -->
+
+        </section>
+
+        <section class="recent-cases">
             <div class="row">
-                <div class="col span-3-of-4">
-                        <h3>
-                            We’re committed <br>
-                            to success & genuine <br>
-                            provider of all types <br>
-                            of legal Services
-                        </h3>
-                </div>
+                <p class="discover-works">DISCOVER OUR BEST WORKS</p>
+                <h2 class="works">RECENT CASE STUDIES</h2>
             </div>
 
-
+            <ul class="works-showcase clearfix">
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our first case">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our second case">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our third case">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our fourth case">
+                    </figure>
+                </li>
+            </ul>
+            
+            <ul class="works-showcase clearfix">
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our fifth case">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our sixth case">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our seventh case">
+                    </figure>
+                </li>
+                
+                <li>
+                    <figure class="cases-photo">
+                        <img src="/Resources/img/law-cases-3.jpg" alt="Our eighth case">
+                    </figure>
+                </li>
+            </ul>
         </section>
 
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
@@ -157,4 +226,4 @@
 </html>
 
 
-<!-- 390x310 -->
+<!-- 390x310 --> 
